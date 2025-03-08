@@ -1,0 +1,11 @@
+[Unit]
+Description=Sync DKIM-Records regularly.
+
+[Timer]
+OnBootSec=5min
+OnUnitInactiveSec=4h
+Persistent=true
+Unit=sync_kas_dkim.service
+
+[Install]
+WantedBy=timers.target

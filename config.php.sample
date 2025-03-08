@@ -1,0 +1,12 @@
+<?php
+# KAS auth data. Multiples KAS accounts can be synced when added to the array. 
+$kas_credentials = array(
+    "your_kas_user1" => "your_kas_pwd1",
+    "your_kas_user2" => "your_kas_pwd2"
+);
+$kas_totp_secret = 'your_totp_secret'; 
+
+# Auth Info to access deSec API
+$desec_token= "your_desec_token";
+
+?>

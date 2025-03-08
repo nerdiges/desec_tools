@@ -1,0 +1,9 @@
+_archive
+_test
+.idea
+*.conf
+logfile
+*.crt
+*.log
+*.todo
+config.php

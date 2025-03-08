@@ -1,0 +1,10 @@
+[Unit]
+Description=sync_kas_dkim.php - Sync DKIM-Records from KAS to deSEC.
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/desec_tools
+ExecStart=/usr/bin/php /opt/desec_tools/sync_kas_dkim.php
+
+[Install]
+WantedBy=multi-user.target
