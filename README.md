@@ -110,3 +110,6 @@ Das Script-Sammlung kann mit folgenden Befehlen aktualisiert werden:
 cd <your_path>/desec_tools
 git pull origin
 ```
+
+## Credits
+(Dima Tsvetkov)[https://github.com/dimamedia/PHP-Simple-TOTP-and-PubKey] for the light weight TFA class.
